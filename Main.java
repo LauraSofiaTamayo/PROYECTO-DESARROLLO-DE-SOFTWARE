@@ -11,7 +11,7 @@ public class Main {
         cuenta.depositar(new BigDecimal("50000"));
 
         System.out.println("Saldo final: $" + cuenta.getSaldo() + " COP");
-
+        
 
         // PRUEBA DE CUENTA CORRIENTE
       
@@ -19,15 +19,13 @@ public class Main {
                 new CuentaCorriente(
                         "002",
                         new BigDecimal("100000"),
-                        new BigDecimal("50000")
-                );
+                        new BigDecimal("50000") );
 
         cuentaCorriente.debitar(new BigDecimal("120000"));
 
         System.out.println(
-                "Saldo cuenta corriente: $" + cuentaCorriente.getSaldo() + " COP"
-        );
-
+                "Saldo cuenta corriente: $" + cuentaCorriente.getSaldo() + " COP");
+    
 
         // PRUEBA DE PAGOS
       
